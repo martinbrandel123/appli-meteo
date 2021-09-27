@@ -3,3 +3,18 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+.boxe {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    box-shadow: 10px 0 0 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
